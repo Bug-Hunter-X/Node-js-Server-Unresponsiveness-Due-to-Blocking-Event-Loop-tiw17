@@ -1,0 +1,1 @@
+This repository demonstrates a common Node.js issue: blocking the event loop with a long-running operation.  The `bug.js` file shows a server that becomes unresponsive because of a 5-second busy wait within the request handler.  The solution in `bugSolution.js` utilizes asynchronous operations to prevent blocking.
